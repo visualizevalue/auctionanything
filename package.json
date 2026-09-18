@@ -1,0 +1,49 @@
+{
+  "name": "auctionanything",
+  "version": "0.1.0",
+  "description": "Proxy-bid auction infrastructure: private maxima, 10% increments, anti-snipe, one live hold per buyer.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "web",
+    "schema.sql",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "next": "^15.5.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.1",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "typescript": "^5.6.3",
+    "vitest": "^3.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visualizevalue/auctionanything.git"
+  },
+  "homepage": "https://github.com/visualizevalue/auctionanything",
+  "bugs": {
+    "url": "https://github.com/visualizevalue/auctionanything/issues"
+  },
+  "keywords": [
+    "auction",
+    "proxy-bid",
+    "anti-snipe"
+  ]
+}
